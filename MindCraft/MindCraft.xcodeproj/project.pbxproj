@@ -7,63 +7,113 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		274041682DB6A651005B95A4 /* PBXContainerItemProxy */ = {
+		274041A82DB6A85B005B95A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 274041522DB6A64C005B95A4 /* Project object */;
+			containerPortal = 2740418D2DB6A858005B95A4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 274041592DB6A64C005B95A4;
+			remoteGlobalIDString = 274041942DB6A858005B95A4;
 			remoteInfo = MindCraft;
 		};
-		274041722DB6A651005B95A4 /* PBXContainerItemProxy */ = {
+		274041B22DB6A85B005B95A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 274041522DB6A64C005B95A4 /* Project object */;
+			containerPortal = 2740418D2DB6A858005B95A4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 274041592DB6A64C005B95A4;
+			remoteGlobalIDString = 274041942DB6A858005B95A4;
 			remoteInfo = MindCraft;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2740415A2DB6A64C005B95A4 /* MindCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		274041672DB6A651005B95A4 /* MindCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		274041712DB6A651005B95A4 /* MindCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		274041D02DB6A85B005B95A4 /* MindCraft.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MindCraft.xcodeproj; sourceTree = "<group>"; };
+		274041952DB6A858005B95A4 /* MindCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274041A72DB6A85B005B95A4 /* MindCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		274041B12DB6A85B005B95A4 /* MindCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		274041FD2DB6AD7A005B95A4 /* MindCraft.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MindCraft.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2740415C2DB6A64C005B95A4 /* MindCraft */ = {
+		274041972DB6A858005B95A4 /* MindCraft */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MindCraft;
 			sourceTree = "<group>";
 		};
-		2740416A2DB6A651005B95A4 /* MindCraftTests */ = {
+		274041AA2DB6A85B005B95A4 /* MindCraftTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MindCraftTests;
 			sourceTree = "<group>";
 		};
-		274041742DB6A651005B95A4 /* MindCraftUITests */ = {
+		274041B42DB6A85B005B95A4 /* MindCraftUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MindCraftUITests;
+			sourceTree = "<group>";
+		};
+		274041E42DB6A92E005B95A4 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		274041E52DB6A937005B95A4 /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		274041E62DB6A93E005B95A4 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		274041E72DB6A947005B95A4 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		274041E82DB6A94E005B95A4 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		274041E92DB6A958005B95A4 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		274041EA2DB6A95F005B95A4 /* Coordinators */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		274041EB2DB6A968005B95A4 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		274041EC2DB6A970005B95A4 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		274041ED2DB6A97E005B95A4 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		274041572DB6A64C005B95A4 /* Frameworks */ = {
+		274041922DB6A858005B95A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274041642DB6A651005B95A4 /* Frameworks */ = {
+		274041A42DB6A85B005B95A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2740416E2DB6A651005B95A4 /* Frameworks */ = {
+		274041AE2DB6A85B005B95A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,29 +123,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		274041512DB6A64C005B95A4 = {
+		2740418C2DB6A858005B95A4 = {
 			isa = PBXGroup;
 			children = (
-				2740415C2DB6A64C005B95A4 /* MindCraft */,
-				2740416A2DB6A651005B95A4 /* MindCraftTests */,
-				274041742DB6A651005B95A4 /* MindCraftUITests */,
-				2740415B2DB6A64C005B95A4 /* Products */,
+				274041FD2DB6AD7A005B95A4 /* MindCraft.xcodeproj */,
+				274041ED2DB6A97E005B95A4 /* Tests */,
+				274041EC2DB6A970005B95A4 /* Resources */,
+				274041EB2DB6A968005B95A4 /* Services */,
+				274041EA2DB6A95F005B95A4 /* Coordinators */,
+				274041E92DB6A958005B95A4 /* Views */,
+				274041E82DB6A94E005B95A4 /* ViewModels */,
+				274041E72DB6A947005B95A4 /* Models */,
+				274041E62DB6A93E005B95A4 /* Features */,
+				274041E52DB6A937005B95A4 /* Core */,
+				274041E42DB6A92E005B95A4 /* App */,
+				274041972DB6A858005B95A4 /* MindCraft */,
+				274041AA2DB6A85B005B95A4 /* MindCraftTests */,
+				274041B42DB6A85B005B95A4 /* MindCraftUITests */,
+				274041962DB6A858005B95A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2740415B2DB6A64C005B95A4 /* Products */ = {
+		274041962DB6A858005B95A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2740415A2DB6A64C005B95A4 /* MindCraft.app */,
-				274041672DB6A651005B95A4 /* MindCraftTests.xctest */,
-				274041712DB6A651005B95A4 /* MindCraftUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		274041D12DB6A85B005B95A4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				274041952DB6A858005B95A4 /* MindCraft.app */,
+				274041A72DB6A85B005B95A4 /* MindCraftTests.xctest */,
+				274041B12DB6A85B005B95A4 /* MindCraftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,140 +157,144 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		274041592DB6A64C005B95A4 /* MindCraft */ = {
+		274041942DB6A858005B95A4 /* MindCraft */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2740417B2DB6A651005B95A4 /* Build configuration list for PBXNativeTarget "MindCraft" */;
+			buildConfigurationList = 274041BB2DB6A85B005B95A4 /* Build configuration list for PBXNativeTarget "MindCraft" */;
 			buildPhases = (
-				274041562DB6A64C005B95A4 /* Sources */,
-				274041572DB6A64C005B95A4 /* Frameworks */,
-				274041582DB6A64C005B95A4 /* Resources */,
+				274041912DB6A858005B95A4 /* Sources */,
+				274041922DB6A858005B95A4 /* Frameworks */,
+				274041932DB6A858005B95A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2740415C2DB6A64C005B95A4 /* MindCraft */,
+				274041972DB6A858005B95A4 /* MindCraft */,
+				274041E42DB6A92E005B95A4 /* App */,
+				274041E52DB6A937005B95A4 /* Core */,
+				274041E62DB6A93E005B95A4 /* Features */,
+				274041E72DB6A947005B95A4 /* Models */,
+				274041E82DB6A94E005B95A4 /* ViewModels */,
+				274041E92DB6A958005B95A4 /* Views */,
+				274041EA2DB6A95F005B95A4 /* Coordinators */,
+				274041EB2DB6A968005B95A4 /* Services */,
+				274041EC2DB6A970005B95A4 /* Resources */,
+				274041ED2DB6A97E005B95A4 /* Tests */,
 			);
 			name = MindCraft;
 			packageProductDependencies = (
 			);
 			productName = MindCraft;
-			productReference = 2740415A2DB6A64C005B95A4 /* MindCraft.app */;
+			productReference = 274041952DB6A858005B95A4 /* MindCraft.app */;
 			productType = "com.apple.product-type.application";
 		};
-		274041662DB6A651005B95A4 /* MindCraftTests */ = {
+		274041A62DB6A85B005B95A4 /* MindCraftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2740417E2DB6A651005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftTests" */;
+			buildConfigurationList = 274041BE2DB6A85B005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftTests" */;
 			buildPhases = (
-				274041632DB6A651005B95A4 /* Sources */,
-				274041642DB6A651005B95A4 /* Frameworks */,
-				274041652DB6A651005B95A4 /* Resources */,
+				274041A32DB6A85B005B95A4 /* Sources */,
+				274041A42DB6A85B005B95A4 /* Frameworks */,
+				274041A52DB6A85B005B95A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				274041692DB6A651005B95A4 /* PBXTargetDependency */,
+				274041A92DB6A85B005B95A4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2740416A2DB6A651005B95A4 /* MindCraftTests */,
+				274041AA2DB6A85B005B95A4 /* MindCraftTests */,
 			);
 			name = MindCraftTests;
 			packageProductDependencies = (
 			);
 			productName = MindCraftTests;
-			productReference = 274041672DB6A651005B95A4 /* MindCraftTests.xctest */;
+			productReference = 274041A72DB6A85B005B95A4 /* MindCraftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		274041702DB6A651005B95A4 /* MindCraftUITests */ = {
+		274041B02DB6A85B005B95A4 /* MindCraftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 274041812DB6A651005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftUITests" */;
+			buildConfigurationList = 274041C12DB6A85B005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftUITests" */;
 			buildPhases = (
-				2740416D2DB6A651005B95A4 /* Sources */,
-				2740416E2DB6A651005B95A4 /* Frameworks */,
-				2740416F2DB6A651005B95A4 /* Resources */,
+				274041AD2DB6A85B005B95A4 /* Sources */,
+				274041AE2DB6A85B005B95A4 /* Frameworks */,
+				274041AF2DB6A85B005B95A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				274041732DB6A651005B95A4 /* PBXTargetDependency */,
+				274041B32DB6A85B005B95A4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				274041742DB6A651005B95A4 /* MindCraftUITests */,
+				274041B42DB6A85B005B95A4 /* MindCraftUITests */,
 			);
 			name = MindCraftUITests;
 			packageProductDependencies = (
 			);
 			productName = MindCraftUITests;
-			productReference = 274041712DB6A651005B95A4 /* MindCraftUITests.xctest */;
+			productReference = 274041B12DB6A85B005B95A4 /* MindCraftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		274041522DB6A64C005B95A4 /* Project object */ = {
+		2740418D2DB6A858005B95A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					274041592DB6A64C005B95A4 = {
+					274041942DB6A858005B95A4 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					274041662DB6A651005B95A4 = {
+					274041A62DB6A85B005B95A4 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 274041592DB6A64C005B95A4;
+						TestTargetID = 274041942DB6A858005B95A4;
 					};
-					274041702DB6A651005B95A4 = {
+					274041B02DB6A85B005B95A4 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 274041592DB6A64C005B95A4;
+						TestTargetID = 274041942DB6A858005B95A4;
 					};
 				};
 			};
-			buildConfigurationList = 274041552DB6A64C005B95A4 /* Build configuration list for PBXProject "MindCraft" */;
+			buildConfigurationList = 274041902DB6A858005B95A4 /* Build configuration list for PBXProject "MindCraft" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 274041512DB6A64C005B95A4;
+			mainGroup = 2740418C2DB6A858005B95A4;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2740415B2DB6A64C005B95A4 /* Products */;
+			productRefGroup = 274041962DB6A858005B95A4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 274041D12DB6A85B005B95A4 /* Products */;
-					ProjectRef = 274041D02DB6A85B005B95A4 /* MindCraft.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				274041592DB6A64C005B95A4 /* MindCraft */,
-				274041662DB6A651005B95A4 /* MindCraftTests */,
-				274041702DB6A651005B95A4 /* MindCraftUITests */,
+				274041942DB6A858005B95A4 /* MindCraft */,
+				274041A62DB6A85B005B95A4 /* MindCraftTests */,
+				274041B02DB6A85B005B95A4 /* MindCraftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		274041582DB6A64C005B95A4 /* Resources */ = {
+		274041932DB6A858005B95A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274041652DB6A651005B95A4 /* Resources */ = {
+		274041A52DB6A85B005B95A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2740416F2DB6A651005B95A4 /* Resources */ = {
+		274041AF2DB6A85B005B95A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,21 +304,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		274041562DB6A64C005B95A4 /* Sources */ = {
+		274041912DB6A858005B95A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274041632DB6A651005B95A4 /* Sources */ = {
+		274041A32DB6A85B005B95A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2740416D2DB6A651005B95A4 /* Sources */ = {
+		274041AD2DB6A85B005B95A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,20 +328,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		274041692DB6A651005B95A4 /* PBXTargetDependency */ = {
+		274041A92DB6A85B005B95A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 274041592DB6A64C005B95A4 /* MindCraft */;
-			targetProxy = 274041682DB6A651005B95A4 /* PBXContainerItemProxy */;
+			target = 274041942DB6A858005B95A4 /* MindCraft */;
+			targetProxy = 274041A82DB6A85B005B95A4 /* PBXContainerItemProxy */;
 		};
-		274041732DB6A651005B95A4 /* PBXTargetDependency */ = {
+		274041B32DB6A85B005B95A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 274041592DB6A64C005B95A4 /* MindCraft */;
-			targetProxy = 274041722DB6A651005B95A4 /* PBXContainerItemProxy */;
+			target = 274041942DB6A858005B95A4 /* MindCraft */;
+			targetProxy = 274041B22DB6A85B005B95A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		274041792DB6A651005B95A4 /* Debug */ = {
+		274041B92DB6A85B005B95A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +405,7 @@
 			};
 			name = Debug;
 		};
-		2740417A2DB6A651005B95A4 /* Release */ = {
+		274041BA2DB6A85B005B95A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,7 +462,7 @@
 			};
 			name = Release;
 		};
-		2740417C2DB6A651005B95A4 /* Debug */ = {
+		274041BC2DB6A85B005B95A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -432,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		2740417D2DB6A651005B95A4 /* Release */ = {
+		274041BD2DB6A85B005B95A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +518,7 @@
 			};
 			name = Release;
 		};
-		2740417F2DB6A651005B95A4 /* Debug */ = {
+		274041BF2DB6A85B005B95A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,7 +537,7 @@
 			};
 			name = Debug;
 		};
-		274041802DB6A651005B95A4 /* Release */ = {
+		274041C02DB6A85B005B95A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,7 +556,7 @@
 			};
 			name = Release;
 		};
-		274041822DB6A651005B95A4 /* Debug */ = {
+		274041C22DB6A85B005B95A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -515,7 +573,7 @@
 			};
 			name = Debug;
 		};
-		274041832DB6A651005B95A4 /* Release */ = {
+		274041C32DB6A85B005B95A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -535,43 +593,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		274041552DB6A64C005B95A4 /* Build configuration list for PBXProject "MindCraft" */ = {
+		274041902DB6A858005B95A4 /* Build configuration list for PBXProject "MindCraft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				274041792DB6A651005B95A4 /* Debug */,
-				2740417A2DB6A651005B95A4 /* Release */,
+				274041B92DB6A85B005B95A4 /* Debug */,
+				274041BA2DB6A85B005B95A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2740417B2DB6A651005B95A4 /* Build configuration list for PBXNativeTarget "MindCraft" */ = {
+		274041BB2DB6A85B005B95A4 /* Build configuration list for PBXNativeTarget "MindCraft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2740417C2DB6A651005B95A4 /* Debug */,
-				2740417D2DB6A651005B95A4 /* Release */,
+				274041BC2DB6A85B005B95A4 /* Debug */,
+				274041BD2DB6A85B005B95A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2740417E2DB6A651005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftTests" */ = {
+		274041BE2DB6A85B005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2740417F2DB6A651005B95A4 /* Debug */,
-				274041802DB6A651005B95A4 /* Release */,
+				274041BF2DB6A85B005B95A4 /* Debug */,
+				274041C02DB6A85B005B95A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		274041812DB6A651005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftUITests" */ = {
+		274041C12DB6A85B005B95A4 /* Build configuration list for PBXNativeTarget "MindCraftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				274041822DB6A651005B95A4 /* Debug */,
-				274041832DB6A651005B95A4 /* Release */,
+				274041C22DB6A85B005B95A4 /* Debug */,
+				274041C32DB6A85B005B95A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 274041522DB6A64C005B95A4 /* Project object */;
+	rootObject = 2740418D2DB6A858005B95A4 /* Project object */;
 }

@@ -1,0 +1,22 @@
+# Xcode generated files
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+
+# Build products
+build/
+Products/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# OS generated files
+.DS_Store
+
+# Various files that are commonly ignored
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcsettings
